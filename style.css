@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+#game-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#board{
+    display: grid;
+    grid-template-columns: repeat(3, 125px);
+    grid-template-rows: repeat(3, 125px);
+}
+
+.cell{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+    border: 2px solid;
+}
+
+#display{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+
+#status-text{
+    display: block;
+    font-size: 30px;
+    margin: -15px 0 20px 0 ;
+}
+
+#restart-button{
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: white;
+}
